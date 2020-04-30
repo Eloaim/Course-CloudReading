@@ -1,0 +1,35 @@
+/* miniprogram/pages/profile/profile.wxss */
+.userinfo{
+  display:flex;
+  background: rgb(251, 242, 181);
+  height: 425rpx;
+  justify-content: center;
+  align-items: center ;
+}
+.userimage_name{
+  display:flex;
+  flex-direction:column;
+  align-items: center ;
+  color: white;
+  
+}
+.userinfo_image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius:35px;
+  border: 2px solid white;
+  margin-top: 10px;
+  overflow:hidden;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.username{
+  font-size: 24px;
+  margin: 10px;
+}
+.userinfo_text{
+  width: 33px;
+  padding: 0 10rpx 0 10rpx;
+}
+.my_button_text{
+  background-color: white;
+}

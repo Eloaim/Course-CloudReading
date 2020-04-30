@@ -1,0 +1,21 @@
+<!--miniprogram/pages/base/base.wxml-->
+<!--定值-->
+<view>Hello World!</view>
+<!--变量-->
+<view>{{msg}}</view>
+<!--wx:for-->
+<view wx:for="{{arr}}" wx:key="index">{{index}} {{item}}</view>
+<!--wx:for 2-->
+<view wx:for="{{list}}" wx:key="index">{{item.name}} {{item.sex}}</view>
+<!--wx:if-->
+<view wx:if="{{flag}}">show if</view>
+<view wx:else >show else</view>
+<!--hadden-->
+<view hidden="{{flag}}">show</view>
+<!--js交互-->
+<button size="mini" type="primary" bindtap="OnFun1">点击</button>
+<view>{{count}}</view>
+<!--事件冒泡bindtap catchtap-->
+<view class="Parent" bindtap="OnParent">
+<view class="Child" bindtap="OnChild"></view>
+</view>

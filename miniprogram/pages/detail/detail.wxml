@@ -1,0 +1,9 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view class='container'>
+  <view class='art-header'>
+    <image src = '{{art.image}}' class='art-img'></image>
+    <view class='art-title'>{{art.title}}</view>
+    <view class='art-source'>{{art.image_source}}</view>
+  </view>
+<rich-text nodes=" {{art.body}}"></rich-text>
+</view>

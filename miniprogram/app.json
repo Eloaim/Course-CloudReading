@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/profile/profile",
+    "pages/base/base",
+    "pages/cloud/cloud",
+    "pages/profile/calendar/calendar",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FBF2B5",
+    "navigationBarTitleText": "云阅读",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#BAD4FF",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "首页",
+        "iconPath": "./images/Home_normal.png",
+        "selectedIconPath": "./images/Home_pressed.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "./images/Me_normal.png",
+        "selectedIconPath": "./images/Me_pressed.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

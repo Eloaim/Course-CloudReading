@@ -1,0 +1,15 @@
+<!--miniprogram/pages/cloud/cloud.wxml-->
+<view class="container">
+<button class="but" bindtap="Insert" type="primary">插入数据</button>
+<button class="but" bindtap="Updata" type="primary">更新数据</button>
+<button class="but" bindtap="Delete" type="primary">删除数据</button>
+<button class="but" bindtap="Search" type="primary">查找数据</button>
+<button class="but" bindtap="muldelete" type="primary">云函数</button>
+<button class="but" bindtap="upload" type="primary">上传图片</button>
+<button class="but" bindtap="download" type="primary">文件展示</button>
+
+<block wx:for="{{images}}" wx:key="index">
+  <image src="{{item.fileID}}"></image>
+</block>
+</view>
+

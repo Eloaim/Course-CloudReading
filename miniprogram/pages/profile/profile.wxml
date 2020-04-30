@@ -1,0 +1,23 @@
+<!--miniprogram/pages/profile/profile.wxml-->
+<!--pages/ my/my.wxml-->
+<view class = 'container'>
+  <view class="userinfo">
+   <view class="userimage_name">
+      <view class = 'userinfo_image'>
+        <open-data  type="userAvatarUrl"></open-data> 
+      </view>
+      <view class = 'userinfo_username'>
+        <open-data type="userNickName" lang="zh_CN"></open-data>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='my_button'>
+    <navigator url="../base/base"><button class='my_button_text' >基础知识</button></navigator>
+    <button class='my_button_text' bindtap='calendar'>日历</button>
+    <navigator url="../cloud/cloud"><button class='my_button_text' >云服务器</button></navigator>
+  </view>
+</view>
+
+
