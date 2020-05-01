@@ -1,13 +1,29 @@
-# 云开发 quickstart
+# 项目描述
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+简单的仿知乎Demo,展示每日的热点新闻,使用时需要将project.config.json中的appid换成自己的
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+## 基础小程序知识介绍
+
+### 小程序代码结构
+- Cloudfunctions:腾讯云项目的目录
+- Miniprogram：小程序的代码目录
+- README.md：项目的描述
+- project.config.json：对小程序的项目进行配置
+- .json：配置文件，以json格式存储一些配置（全局，页面，项目配置）
+- .wxml:模板文件，描述页面结构，html
+- .wxcss：样式文件，调整页面样式，css
+- .js:脚本逻辑文件
+### flex 布局
+### js简单语法
+### 组件简单用法
+
+## 云开发基础讲解
+- 数据库的增删改查
+- 文件的上传以及应用
+- 简单云函数的运用
 
 ## 参考文档
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-
+- [小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 # Course-CloudReading
